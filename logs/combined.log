@@ -1,0 +1,136 @@
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-24T12:13:00.479Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-24T12:13:00.598Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-24T12:15:29.527Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-24T12:15:29.607Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-24T12:19:44.831Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-24T12:19:44.852Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:30:45.329Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:30:45.391Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:31:19.991Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:31:20.059Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:31:29.144Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:31:29.187Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:32:13.831Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:32:13.876Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:32:26.627Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:32:26.654Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:32:56.674Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:32:56.757Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:35:04.096Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:35:04.246Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:36:39.854Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:36:39.928Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:36:56.638Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:36:56.679Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:39:28.386Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:39:28.445Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:40:07.329Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:40:07.529Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:40:46.604Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:40:46.651Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:41:41.635Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:41:41.655Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:42:23.130Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:42:23.149Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:50:52.875Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:50:52.927Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:51:15.173Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:51:15.383Z"}
+{"email":"john@example.com","fName":"John","level":"info","message":"[Auth Service] Register User","mobile":"9876543210","password":"Pass123!","timestamp":"2025-02-25T18:53:27.113Z"}
+{"_message":"User validation failed","errors":{"password":{"kind":"maxlength","message":"Password cannot exceed 15 characters","name":"ValidatorError","path":"password","properties":{"maxlength":15,"message":"Password cannot exceed 15 characters","path":"password","type":"maxlength","value":"$2b$10$ElDp19seGlyZBdll08kOIubV8UJXkyZ5H7uLWoW8pCuXPbKCiR2Le"},"value":"$2b$10$ElDp19seGlyZBdll08kOIubV8UJXkyZ5H7uLWoW8pCuXPbKCiR2Le"}},"level":"error","message":"Signup error: User validation failed: password: Password cannot exceed 15 characters","stack":"ValidationError: User validation failed: password: Password cannot exceed 15 characters\n    at model.Document.invalidate (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/mongoose/lib/document.js:3329:32)\n    at /Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/mongoose/lib/document.js:3090:17\n    at /Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/mongoose/lib/schemaType.js:1407:9\n    at processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-02-25T18:53:27.400Z"}
+{"email":"john@example.com","fName":"John","level":"info","message":"[Auth Service] Register User","mobile":"9876543210","password":"Pass123","timestamp":"2025-02-25T18:53:46.844Z"}
+{"level":"error","message":"Signup error: User already exists","stack":"Error: User already exists\n    at Function.registerUser (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/services/auth.service.ts:16:29)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/controllers/auth.controller.ts:11:32)","timestamp":"2025-02-25T18:53:46.858Z"}
+{"emailOrMobile":"john@example.com","level":"info","message":"[Auth Service] Login User","password":"Pass123!","timestamp":"2025-02-25T18:54:39.928Z"}
+{"_message":"User validation failed","errors":{"password":{"kind":"maxlength","message":"Password cannot exceed 15 characters","name":"ValidatorError","path":"password","properties":{"maxlength":15,"message":"Password cannot exceed 15 characters","path":"password","type":"maxlength","value":"$2b$10$ElDp19seGlyZBdll08kOIubV8UJXkyZ5H7uLWoW8pCuXPbKCiR2Le"},"value":"$2b$10$ElDp19seGlyZBdll08kOIubV8UJXkyZ5H7uLWoW8pCuXPbKCiR2Le"}},"level":"error","message":"Login error: User validation failed: password: Password cannot exceed 15 characters","stack":"ValidationError: User validation failed: password: Password cannot exceed 15 characters\n    at model.Document.invalidate (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/mongoose/lib/document.js:3329:32)\n    at /Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/mongoose/lib/document.js:3090:17\n    at /Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/mongoose/lib/schemaType.js:1407:9\n    at processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-02-25T18:54:40.157Z"}
+{"emailOrMobile":"john@example.com","level":"info","message":"[Auth Service] Login User","password":"Pass123","timestamp":"2025-02-25T18:54:48.094Z"}
+{"level":"error","message":"Login error: Invalid credentials","stack":"Error: Invalid credentials\n    at Function.loginUser (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/services/auth.service.ts:43:25)\n    at async login (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/controllers/auth.controller.ts:30:32)","timestamp":"2025-02-25T18:54:48.226Z"}
+{"email":"john@example.com","fName":"John","level":"info","message":"[Auth Service] Register User","mobile":"9876543210","password":"Pass123","timestamp":"2025-02-25T18:55:03.103Z"}
+{"level":"error","message":"Signup error: User already exists","stack":"Error: User already exists\n    at Function.registerUser (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/services/auth.service.ts:16:29)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/controllers/auth.controller.ts:11:32)","timestamp":"2025-02-25T18:55:03.109Z"}
+{"email":"navneet@email.com","fName":"Navneet","lName":"Kumar","level":"info","message":"[Auth Service] Register User","mobile":"7007189989","password":"Pass1234","timestamp":"2025-02-25T18:56:00.602Z"}
+{"_message":"User validation failed","errors":{"password":{"kind":"maxlength","message":"Password cannot exceed 15 characters","name":"ValidatorError","path":"password","properties":{"maxlength":15,"message":"Password cannot exceed 15 characters","path":"password","type":"maxlength","value":"$2b$10$uRILGKn87fR2IL7CnnoWVOkwcDRdaevZO6w9BkYDe/dtXV2VrFiae"},"value":"$2b$10$uRILGKn87fR2IL7CnnoWVOkwcDRdaevZO6w9BkYDe/dtXV2VrFiae"}},"level":"error","message":"Signup error: User validation failed: password: Password cannot exceed 15 characters","stack":"ValidationError: User validation failed: password: Password cannot exceed 15 characters\n    at model.Document.invalidate (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/mongoose/lib/document.js:3329:32)\n    at /Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/mongoose/lib/document.js:3090:17\n    at /Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/mongoose/lib/schemaType.js:1407:9\n    at processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-02-25T18:56:00.739Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T18:58:12.673Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T18:58:12.708Z"}
+{"email":"navneet@email.com","fName":"Navneet","lName":"Kumar","level":"info","message":"[Auth Service] Register User","mobile":"7007189989","password":"Pass1234","timestamp":"2025-02-25T18:58:19.118Z"}
+{"level":"error","message":"Signup error: User already exists","stack":"Error: User already exists\n    at Function.registerUser (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/services/auth.service.ts:16:29)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/controllers/auth.controller.ts:11:32)","timestamp":"2025-02-25T18:58:19.162Z"}
+{"email":"navneet@email.com","fName":"Navneet","lName":"Kumar","level":"info","message":"[Auth Service] Register User","mobile":"7007189989","password":"Pass1234","timestamp":"2025-02-25T18:58:25.220Z"}
+{"level":"error","message":"Signup error: User already exists","stack":"Error: User already exists\n    at Function.registerUser (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/services/auth.service.ts:16:29)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/controllers/auth.controller.ts:11:32)","timestamp":"2025-02-25T18:58:25.246Z"}
+{"email":"navneet@email.com","fName":"Navneet","lName":"Kumar","level":"info","message":"[Auth Service] Register User","mobile":"7007189989","password":"Pass1234","timestamp":"2025-02-25T18:59:40.756Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"Pass1234","timestamp":"2025-02-25T19:00:32.239Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T19:04:47.189Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T19:04:47.212Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T19:13:21.477Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T19:13:21.570Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"Pass1234","timestamp":"2025-02-25T19:14:27.347Z"}
+{"level":"error","message":"Refresh token error: secret or public key must be provided","name":"JsonWebTokenError","stack":"JsonWebTokenError: secret or public key must be provided\n    at /Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/jsonwebtoken/verify.js:113:19\n    at getSecret (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/jsonwebtoken/verify.js:97:14)\n    at Object.module.exports [as verify] (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/jsonwebtoken/verify.js:101:10)\n    at Function.refreshToken (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/services/auth.service.ts:70:25)\n    at refreshToken (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/controllers/auth.controller.ts:53:40)\n    at Layer.handle [as handle_request] (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/node_modules/express/lib/router/route.js:149:13)\n    at /Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/middlewares/validate.middleware.ts:10:7\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-02-25T19:14:58.775Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T19:21:21.847Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T19:21:21.917Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T19:21:51.252Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T19:21:51.278Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T19:22:03.053Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T19:22:03.109Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"Pass1234","timestamp":"2025-02-25T19:22:18.027Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T19:25:37.922Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T19:25:37.943Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T19:27:57.392Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T19:27:57.453Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T19:28:22.331Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T19:28:22.396Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T19:29:13.386Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T19:29:13.447Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T19:29:47.584Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T19:29:47.635Z"}
+{"level":"error","message":"Refresh token error: Invalid or expired refresh token","stack":"Error: Invalid or expired refresh token\n    at Function.refreshToken (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/services/auth.service.ts:73:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async refreshToken (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/controllers/auth.controller.ts:54:22)","timestamp":"2025-02-25T19:30:32.710Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"Pass1234","timestamp":"2025-02-25T19:30:36.613Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T19:35:52.060Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T19:35:52.088Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"Pass1234","timestamp":"2025-02-25T19:36:03.321Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"Pass1234","timestamp":"2025-02-25T19:36:04.511Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"Pass1234","timestamp":"2025-02-25T19:36:05.900Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"Pass1234","timestamp":"2025-02-25T19:36:07.213Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"Pass1234","timestamp":"2025-02-25T19:36:08.409Z"}
+{"level":"warn","message":"Login rate limit exceeded for IP: ::1","timestamp":"2025-02-25T19:36:09.595Z"}
+{"level":"warn","message":"Login rate limit exceeded for IP: ::1","timestamp":"2025-02-25T19:36:10.860Z"}
+{"level":"warn","message":"Login rate limit exceeded for IP: ::1","timestamp":"2025-02-25T19:36:12.202Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:38:10.394Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:38:10.461Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:42:03.595Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:42:03.662Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:42:22.024Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:42:22.097Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:43:42.718Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:43:42.779Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:44:12.265Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:44:12.328Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:50:29.201Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:50:29.265Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:51:46.067Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:51:46.131Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:52:05.499Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:52:05.568Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:52:35.089Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:52:35.124Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:52:54.184Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:52:54.208Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:53:56.146Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:53:56.196Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:54:16.174Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:54:16.197Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:54:40.127Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:54:40.186Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:55:48.795Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:55:48.858Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:56:10.353Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:56:10.383Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T20:56:48.331Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T20:56:48.367Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T21:17:07.090Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T21:17:07.114Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"Pass1234","timestamp":"2025-02-25T21:18:17.991Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"Pass1234","timestamp":"2025-02-25T21:22:39.914Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"Pass1234","timestamp":"2025-02-25T21:24:39.177Z"}
+{"level":"error","message":"Login error: Invalid credentials","stack":"Error: Invalid credentials\n    at Function.loginUser (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/services/auth.service.ts:49:25)\n    at async login (/Users/master/Documents/workspace/Node-Express-Typescript/pfm-identity-manager/src/controllers/auth.controller.ts:35:32)","timestamp":"2025-02-25T21:24:39.311Z"}
+{"emailOrMobile":"navneet@email.com","level":"info","message":"[Auth Service] Login User","password":"admin@123","timestamp":"2025-02-25T21:24:59.607Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T21:26:11.433Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T21:26:11.495Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-25T21:26:39.168Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2025-02-25T21:26:39.230Z"}
